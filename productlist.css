@@ -1,0 +1,17 @@
+table {
+    border: 0;
+    /* border-collapse是用來決定表格式分開還是合併，collapse合併，separate分開 */
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    padding: 16px 8px;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+}
+td {
+    border: solid 1px #000000;
+    padding: 8px;
+    font-weight: bold;
+}
